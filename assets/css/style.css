@@ -433,6 +433,7 @@ a {
     background: #D0EFED;
     opacity: 0.35;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .course-item .thumb {
@@ -633,4 +634,38 @@ a {
     right: 600px;
     width: 78px;
     height: 78px;
+}
+
+/* Account */
+.account {
+    margin-top: 130px;
+    background: #DEF6F5;
+}
+
+.account .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 0 88px;
+}
+
+.account .heading {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #070707;
+}
+
+.account .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    color: var(--desc-second-color);
+}
+
+.account .btn-account {
+    width: 186px;
+    max-width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    line-height: 68px;
+    margin-right: 142px;
 }
